@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-Obl.woff2') format('woff2'),
+        url('UniversLTStd-Obl.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-BlackExObl.woff2') format('woff2'),
+        url('UniversLTStd-BlackExObl.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-UltraCn.woff2') format('woff2'),
+        url('UniversLTStd-UltraCn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-Black.woff2') format('woff2'),
+        url('UniversLTStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-BlackEx.woff2') format('woff2'),
+        url('UniversLTStd-BlackEx.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-XBlack.woff2') format('woff2'),
+        url('UniversLTStd-XBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-XBlackObl.woff2') format('woff2'),
+        url('UniversLTStd-XBlackObl.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-LightUltraCn.woff2') format('woff2'),
+        url('UniversLTStd-LightUltraCn.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-LightCn.woff2') format('woff2'),
+        url('UniversLTStd-LightCn.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-BoldCnObl.woff2') format('woff2'),
+        url('UniversLTStd-BoldCnObl.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-BlackExObl.woff2') format('woff2'),
+        url('UniversLTStd-BlackExObl.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-LightCnObl.woff2') format('woff2'),
+        url('UniversLTStd-LightCnObl.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-BlackEx.woff2') format('woff2'),
+        url('UniversLTStd-BlackEx.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-BoldObl.woff2') format('woff2'),
+        url('UniversLTStd-BoldObl.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-XBlackEx.woff2') format('woff2'),
+        url('UniversLTStd-XBlackEx.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-Cn.woff2') format('woff2'),
+        url('UniversLTStd-Cn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-XBlack.woff2') format('woff2'),
+        url('UniversLTStd-XBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-LightObl.woff2') format('woff2'),
+        url('UniversLTStd-LightObl.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-XBlackExObl.woff2') format('woff2'),
+        url('UniversLTStd-XBlackExObl.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-XBlackObl.woff2') format('woff2'),
+        url('UniversLTStd-XBlackObl.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-CnObl.woff2') format('woff2'),
+        url('UniversLTStd-CnObl.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-ThinUltraCn.woff2') format('woff2'),
+        url('UniversLTStd-ThinUltraCn.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-LightUltraCn.woff2') format('woff2'),
+        url('UniversLTStd-LightUltraCn.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd.woff2') format('woff2'),
+        url('UniversLTStd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-XBlackEx.woff2') format('woff2'),
+        url('UniversLTStd-XBlackEx.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-ExObl.woff2') format('woff2'),
+        url('UniversLTStd-ExObl.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-BoldEx.woff2') format('woff2'),
+        url('UniversLTStd-BoldEx.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-BoldCn.woff2') format('woff2'),
+        url('UniversLTStd-BoldCn.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-CnObl.woff2') format('woff2'),
+        url('UniversLTStd-CnObl.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-Bold.woff2') format('woff2'),
+        url('UniversLTStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-Light.woff2') format('woff2'),
+        url('UniversLTStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-XBlackExObl.woff2') format('woff2'),
+        url('UniversLTStd-XBlackExObl.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-UltraCn.woff2') format('woff2'),
+        url('UniversLTStd-UltraCn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-ThinUltraCn.woff2') format('woff2'),
+        url('UniversLTStd-ThinUltraCn.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-Ex.woff2') format('woff2'),
+        url('UniversLTStd-Ex.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-Cn.woff2') format('woff2'),
+        url('UniversLTStd-Cn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-BoldExObl.woff2') format('woff2'),
+        url('UniversLTStd-BoldExObl.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-BlackObl.woff2') format('woff2'),
+        url('UniversLTStd-BlackObl.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+

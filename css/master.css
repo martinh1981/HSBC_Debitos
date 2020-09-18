@@ -1,0 +1,3468 @@
+@font-face {
+  font-family: uni;
+  src: url(UniversLTStd.woff);
+}
+
+*{
+    margin: 0 auto;
+    box-sizing:border-box; 
+    padding: 0;
+    
+}
+
+.navbar-brand{
+    position: relative;
+    left: 6vw;
+}
+
+.navbar-nav{
+    position: relative;
+    left: 1vw;
+}
+
+.navbar-nav li a{
+    list-style: none;
+    color:#767676 !important;
+}
+
+.navbar-nav li a:hover{
+    list-style: none;
+    color:#db0011 !important;
+    
+}
+
+
+
+.banner_countdown{
+    height: 25vh;
+    background-color: #d7d8d6;
+    width: 100%;    
+}
+.banner_ctn{
+  display: flex;
+  flex-direction: row;
+}
+
+.texto_banner{
+    height: 25vh;
+    width: auto;
+    position: relative;
+    right: 3vw;
+}
+.texto_banner_mobile{
+  display: none;
+}
+
+.quedan{
+  font-family:uni, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  position: relative;
+  top: 4vh;
+}
+
+
+.items_simulador{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.items_simulador h2{
+  font-family:uni, sans-serif;
+  color: #db0011;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 3vh;  
+}
+
+.debitos_automaticos{
+  height: 10vh;
+  width: 100%;
+  background-color: #767676;
+  text-align: center;
+}
+
+.debitos_automaticos p{
+  font-family:uni, sans-serif;    
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    top: 3vh;
+}
+
+.gris{
+  color: #767676;
+}
+
+.añadir{
+  font-family:uni, sans-serif;
+  padding: 13px;
+  background-color:#db0011;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 7px;
+  margin-left: 10px;
+  border: 0;
+}
+
+.añadir:hover{
+  font-family:uni, sans-serif;
+  padding: 13px;
+  background-color:#db0011;
+  color: #767676;
+  font-weight: 700;
+  border-radius: 7px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+select{
+  padding: 12px 40px 12px 20px;
+  font-size: 18px;
+  line-height: 18px;  
+  border: solid #db0011;
+  box-shadow: none; 
+  
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: ellipsis;
+  background:#FFFFFF url("../img/flecha_select.png") right 16px center no-repeat;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+table{
+  width: 35vw;
+  text-align: center;
+  color: #767676;
+  margin-top: 10px;
+}
+
+.monto{
+  padding: 12px 40px 12px 20px;
+  font-size: 18px;
+  line-height: 18px;  
+  border: solid #db0011;
+  box-shadow: none; 
+  width: 8vw;
+  margin-left: 10px;
+}
+.linea{
+  border-bottom: solid black 1px;
+  width: 30vw;
+  
+}
+.xmes{
+  display: flex;
+  flex-direction: row;
+}
+
+.seis_meses{
+  display: flex;
+  flex-direction: row;
+}
+
+.ahorro{
+  font-family: uni, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 10px;;
+  
+}
+.total_mes{
+  padding: 3px 10px 3px 10px;
+  background-color: #cccccc;
+  position: relative;
+  left: 6vw;
+  width: 5vw;
+  text-align: center;
+  
+}
+.total_6_meses{
+  padding: 3px 10px 3px 10px;
+  background-color: #767676;
+  color: #fff;
+  width: 5vw;
+  position: relative;
+  left: 5.5vw;
+  text-align: center;
+}
+
+.servicios{
+    height: 25vh;
+    background-color: #e1e1e1;
+    width: 100%;    
+}
+
+.servicios_iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios_iconos h3{
+    font-family:uni, sans-serif;
+    text-transform: uppercase;
+    color: #db0011;
+    margin-top: 2vh;
+    margin-bottom: 0;
+    font-weight: 500;    
+}
+
+.servicios_iconos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 2vh
+}
+
+.servicios_iconos ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;    
+}
+
+.servicios_iconos ul li img{
+    height: 15vh;
+}
+
+.servicios_iconos ul li p{
+    font-family:uni, sans-serif;
+    text-transform: uppercase;
+    color: #767676 ;
+    margin-bottom: 0;    
+    font-weight: 600; 
+    font-size: 1em;
+    position: relative;
+    bottom: 1vh;
+}
+.iconos_servicios_mobile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.auto{
+    position: relative;
+    top: 1vh;
+}
+
+.adherir h3{
+    font-family:uni, UniversLTStd, sans-serif;
+    font-weight: 900;
+    color: #db0011;
+    text-transform: uppercase;
+    font-size: 4.5em;
+    margin-top: 7vh;
+    margin-left:15vw;
+}
+
+.adherir{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.adherir_items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+.banner_contacto{
+    height: 25vh;
+    background-color: #db0011;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contacto_telefono p{
+    font-family:uni, sans-serif;
+    color: white;
+    font-size: 2em;
+}
+
+.contacto_telefono{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.titulos_contacto{
+    font-family:uni, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 2em;
+}
+
+.sub_contacto{
+  font-family:uni, sans-serif;    
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+}
+.sub_contacto:hover{
+  font-family:uni, sans-serif;    
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+}
+
+.banner_contacto img{
+    height: 5vh;
+    margin: 10px; 
+    position: relative;
+    bottom: 1vh;
+}
+
+.seccion_tarjetas{
+    height: 50vh;
+    background-image: url("../img/textura_pared.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(53, 52, 52);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.seccion_tarjetas p{
+    font-family:uni, sans-serif;    
+    color: white;
+    font-size: 2em;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;   
+    margin: 30px;
+}
+
+.tarjetas img{
+    width: 15vw;
+    height: auto;
+}
+
+
+.faq{    
+    background-color:#d7d8d6;
+    width: 100%;       
+}
+
+.faq_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2px;       
+}
+
+
+.faq_items img{
+ margin:20px;   
+}
+
+.faq_items p{
+    font-family:uni, sans-serif;    
+    color: black;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.faq_items a{
+  font-family:uni, sans-serif;
+  padding: 13px;
+  background-color:#db0011;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 46.5vw;
+}
+.faq_items a:hover{
+  font-family:uni, sans-serif;
+  padding: 13px;
+  background-color:#db0011;
+  color: #767676;
+  font-weight: 700;
+  border-radius: 7px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+.linea_2{
+  border-bottom: solid #767676 1px;
+  width: 95vw;
+  margin: 40px;
+}
+
+.linea_2b{
+  border-bottom: solid #767676 1px;
+  width: 95vw;
+  margin: 40px;
+  position: relative;
+  bottom: 2vh;
+}
+.redes_sociales{
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  position: relative;
+  top: 3vh;
+  left: 33vw;;  
+  width: 40vh;  
+
+}
+
+.intro_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 14.5vw;
+  
+}
+.intro_footer p{
+  position: relative;
+  right: 3.7vw;
+  color:#767676 ;
+  font-weight: 700;
+  
+}
+
+.contacto_tarjetas{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50vw;
+  color: #767676;
+  
+}
+.web{
+  text-decoration: none;
+  color: #767676;
+}
+.web:hover{
+  
+  text-decoration: none;
+  color:#db0011 !important;
+}
+.legal{
+width: 95vw;
+font-family:uni, sans-serif;
+font-size: 0.7em;
+color: #767676;
+text-align: justify;
+position: relative;
+bottom: 2.5vh;
+
+}
+.iconos_redes{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.iconos_redes li a {
+  margin: 5px;
+}
+.columna{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+.links_footer{
+  width: 50vw;
+  position: relative;
+  left: 20vw;
+  bottom: 7vh;
+}
+
+.link_f{
+  margin: 5vh;
+}
+
+.columna a{
+  list-style: none;
+  color:#767676;
+  font-weight: 600;
+}
+
+.columna a:hover{
+  list-style: none;
+  color:#db0011;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo_footer{
+  height: 40px;
+  position: relative;
+  left: 2.5vw;
+}
+
+
+
+/***FAQ**/
+.btn{
+    font-size: 2em !important;
+    color: #767676 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.card-header{
+    width: 100% !important;
+    margin-bottom:50px; 
+    background-color: #fff;   
+}
+.card-body{
+  background-color: rgb(236, 236, 236);
+  width: 95vw !important;
+  
+}
+
+.accordion{
+  margin: 20px;
+}
+.flecha_faq{
+  height: 10px;
+}
+
+.mb-0{
+  font-size: 0.7em !important;
+}
+
+#faq{
+  display: none;
+  
+}
+.card-body p{
+  margin-left: 3vw; 
+  margin-right: 3vw; 
+}
+.card-body ul li{
+  margin-left: 3vw; 
+  margin-right: 3vw;  
+}
+.card-body ol li{
+  margin-left: 3vw; 
+  margin-right: 3vw;  
+}
+
+
+
+
+/******* COUNTDOWN START********/
+
+.flipper {
+    color: #db0011;
+    display: block;
+    font-size: 80px !important;
+    line-height: 100%;
+    padding: 0;
+    margin-top: 4.5vh;
+    margin-right: 7vw;
+    height: 1.7em;
+    font-weight: 900;
+  }
+  .flipper.flipper-invisible {
+    font-size: 0px !important;
+  }
+  
+  .flipper-group {
+    position: relative;
+    white-space: nowrap;
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+  .flipper-group label {
+    position: absolute;
+    color: #db0011;
+    font-size: 20%;
+    top: 100%;
+    line-height: 1em;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    text-align: center;
+    padding: .5em;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 1vh;
+    font-weight: bold;
+  }
+  
+  .flipper-digit {
+    white-space: nowrap;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    height: 1.2em;
+    overflow-y: hidden;
+  }
+  .flipper-digit span {
+    font-size: 25%;
+  }
+  
+  .flipper-delimiter {
+    white-space: nowrap;
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    min-width: .1em;
+    white-space: nowrap;
+    display: block;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    line-height: 1em;
+  }
+  
+  .digit-face {
+    display: block;
+    visibility: hidden;
+    position: relative;
+    border-radius: 0.1em;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 8;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .digit-next {
+    display: block;
+    position: relative;
+    border-radius: 0.1em;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 8;
+    height: 1.2em;
+    background: #fff;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    box-sizing: border-box;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  .digit-top {
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    pointer-events: none;
+    overflow: hidden;
+    position: absolute;
+    background: #fff;
+    padding-top: 0.1em;
+    padding-bottom: 0;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    border-top-left-radius: 0.1em;
+    border-top-right-radius: 0.1em;
+    box-sizing: border-box;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    transition: background 0s linear, -webkit-transform 0s linear;
+    transition: transform 0s linear, background 0s linear;
+    transition: transform 0s linear, background 0s linear, -webkit-transform 0s linear;
+    -webkit-transform-origin: 0 0.6em 0 !important;
+            transform-origin: 0 0.6em 0 !important;
+    -webkit-transform-style: preserve-3d !important;
+            transform-style: preserve-3d !important;
+    z-index: 20;
+  }
+  .digit-top.r {
+    transition: background 0.2s linear, -webkit-transform 0.2s linear;
+    transition: transform 0.2s linear, background 0.2s linear;
+    transition: transform 0.2s linear, background 0.2s linear, -webkit-transform 0.2s linear;
+    -webkit-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+    background: #cccccc;
+  }
+  
+  .digit-top2 {
+    visibility: hidden;
+    position: absolute;
+    height: 50%;
+    left: 0;
+    right: 0;
+    background: #cccccc;
+    transition: -webkit-transform 0.2s linear;
+    transition: transform 0.2s linear;
+    transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+    line-height: 0em !important;
+    top: 50% !important;
+    bottom: auto !important;
+    padding-top: 0;
+    padding-bottom: 0.1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    border-bottom-left-radius: 0.1em;
+    border-bottom-right-radius: 0.1em;
+    overflow: hidden;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    transition: background 0s linear, -webkit-transform 0s linear;
+    transition: transform 0s linear, background 0s linear;
+    transition: transform 0s linear, background 0s linear, -webkit-transform 0s linear;
+    -webkit-transform: rotateX(-90deg);
+            transform: rotateX(-90deg);
+    -webkit-transform-style: preserve-3d !important;
+            transform-style: preserve-3d !important;
+    -webkit-transform-origin: 0 0 0 !important;
+            transform-origin: 0 0 0 !important;
+    z-index: 20;
+  }
+  .digit-top2.r {
+    visibility: visible;
+    transition: background 0.2s linear 0.2s, -webkit-transform 0.2s linear 0.2s;
+    transition: transform 0.2s linear 0.2s, background 0.2s linear 0.2s;
+    transition: transform 0.2s linear 0.2s, background 0.2s linear 0.2s, -webkit-transform 0.2s linear 0.2s;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    background: #fff;
+  }
+  
+  .digit-bottom {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    overflow: hidden;
+    background: #fff;
+    height: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    line-height: 0em;
+    padding-top: 0;
+    padding-bottom: 0.1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    border-bottom-left-radius: 0.1em;
+    border-bottom-right-radius: 0.1em;
+    box-sizing: border-box;
+    text-align: center;
+    transition: none;
+  }
+  .digit-bottom.r {
+    transition: background 0.2s linear;
+    background: #cccccc;
+  }
+  
+  .flipper-digit:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    display: block;
+    z-index: 30;
+    left: 0;
+    right: 0;
+  }
+  
+  .flipper-dark {
+    color: #fff;
+  }
+  .flipper-dark .flipper-delimiter {
+    color: #333;
+  }
+  .flipper-dark .digit-next {
+    background: #333;
+  }
+  .flipper-dark .digit-top {
+    background: #333;
+  }
+  .flipper-dark .digit-top.r {
+    background: black;
+  }
+  .flipper-dark .digit-top2 {
+    background: black;
+  }
+  .flipper-dark .digit-top2.r {
+    background: #333;
+  }
+  .flipper-dark .digit-bottom {
+    background: #333;
+  }
+  
+  .flipper-dark-labels .flipper-group label {
+    color: #333;
+  }
+  
+
+/******* COUNTDOWN END********/
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .items_simulador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+  }
+
+  .nav1{
+    margin-right: 25vw;
+
+  }
+
+  .banner_countdown{
+    height: 25vh;
+    background-color: #d7d8d6;
+    width: 100%;    
+}
+.texto_banner{
+    height: 27vh;
+    width: auto;
+    position: relative;
+    right: 3vw;
+}
+select::-ms-expand {
+  display: none;
+}
+
+
+.contacto_tarjetas{
+  position: relative;
+  right: 11vw;
+}
+
+.intro_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  right: 14vw;
+  
+}
+.intro_footer p{
+  position: relative;
+  right: 3.7vw;
+  color:#767676 ;
+  font-weight: 700;  
+}
+
+.sub_contacto{
+  position: relative;
+  right: 2vw;
+  
+}
+
+.card-body p{
+  margin-left: 3vw; 
+  margin-right: 3vw; 
+}
+.card-body ul li{
+  margin-left: 3vw; 
+  margin-right: 3vw;  
+}
+.card-body ol li{
+  margin-left: 3vw; 
+  margin-right: 3vw;  
+}
+
+}
+
+/*celular portrait*/
+@media all and (max-width: 480px) and (min-width:320px) and (orientation: portrait){
+  .navbar-brand{
+    position: relative;
+    right: 80vw;
+    margin: 0 !important;
+}
+.nav2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.texto_banner{
+  display: none;
+}
+.banner_countdown{
+  height: 90vh;
+  position: relative;
+  background-color: #d7d8d6;
+  width: 100%;  
+    
+}
+.banner_ctn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    
+  }
+  .card .collapse{
+    text-align: left;
+  }
+
+
+.texto_banner_mobile{
+  display: block;
+  width: 100vw;
+}
+
+
+.inputs_simulador{
+  position: relative;
+  text-align: center;
+}
+
+
+.ahorro{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 40vh;
+}
+
+.items_simulador h2{
+  font-family:uni, sans-serif;
+  color: #db0011;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 3vh; 
+  width: 60vw; 
+  text-align: center;
+}
+
+.gris{
+  color: #767676;
+  width: 85vw;
+  text-align: center;
+}
+
+select{
+  padding: 12px 40px 12px 20px;
+  font-size: 18px;
+  line-height: 18px;  
+  width: 70vw;
+  border: solid #db0011;
+  box-shadow: none; 
+  
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: ellipsis;
+  background:#FFFFFF url("../img/flecha_select.png") right 13px center no-repeat;
+}
+
+.monto{
+  padding: 12px 40px 12px 20px;
+  font-size: 18px;
+  line-height: 18px;  
+  border: solid #db0011;
+  box-shadow: none; 
+  width: 70vw;
+  margin: 10px;
+}
+
+.añadir{
+  font-family:uni, sans-serif;
+  padding: 13px;
+  background-color:#db0011;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+
+.linea{
+  border-bottom: solid black 1px;
+  width: 80vw;
+  
+}
+
+table{
+  width: 80vw;
+  text-align: center;
+  color: #767676;
+}
+
+  
+
+.xmes{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  
+}
+
+.seis_meses{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+
+}
+
+.ahorro_a{
+  font-size: 0.8em;
+}
+
+.ahorro_b{
+  font-size: 0.8em;
+}
+
+.ahorro{
+  font-family: uni, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 10px;    
+}
+.total_mes{
+  padding: 3px 10px 3px 10px;
+  background-color: #cccccc;
+  position: relative;
+  left: 3vw;
+  width: 30vw;
+  text-align: center;
+  
+  
+}
+.total_6_meses{
+  padding: 3px 10px 3px 10px;
+  background-color: #767676;
+  color: #fff;
+  width: 30vw;
+  position: relative;
+  left: 3vw;
+  text-align: center;
+}
+
+.servicios{
+  height: 100vh;
+}
+
+.iconos_servicios_mobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.auto{
+  position: relative;
+  right: 8vw;
+}
+.servicios_iconos ul li p{
+  font-family:uni, sans-serif;
+  text-transform: uppercase;
+  color: #767676 ;
+  margin-bottom: 0;    
+  font-weight: 600; 
+  font-size: .8em;
+  position: relative;
+  bottom: 1vh;
+}
+
+.servicios_iconos ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3vw;
+  margin-top: 5vh;    
+}
+
+.servicios_iconos h3{
+  font-family:uni, sans-serif;
+  text-transform: uppercase;
+  color: #db0011;
+  margin-top: 5vh;
+  margin-bottom: 0;
+  font-weight: 700;  
+  width: 80vw;
+  text-align: center;  
+}
+.texto_auto{
+  position: relative;
+  right: 8vw;
+}
+
+.adherir_items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.adherir{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.adherir_items h3{
+  font-family:uni, sans-serif;
+  font-size: 2.5em;
+  width: 100vw;
+  text-align:center;
+  position: relative;
+  bottom: 3vh;
+  right: 15vw;
+}
+
+iframe{
+  width: 100%;
+}
+.accordion{
+  margin: 10px;
+}
+
+
+.banner_contacto{
+  height: 25vh;
+  background-color: #db0011;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contacto_telefono p{
+  font-family:uni, sans-serif;
+  color: white;
+  font-size: 1.3em;
+}
+
+.contacto_telefono{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.titulos_contacto{
+  font-family:uni, sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 2em;
+}
+
+.sub_contacto{
+font-family:uni, sans-serif;    
+color: white;
+font-size: 1em;
+font-weight: bold;
+}
+
+.banner_contacto img{
+  height: 5vh;
+  margin: 10px; 
+  position: relative;
+  bottom: 1vh;
+}
+
+.seccion_tarjetas{
+  height: 100vh;
+  background-image: url("../img/textura_pared.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(53, 52, 52);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;    
+}
+
+.seccion_tarjetas p{
+  font-family:uni, sans-serif;    
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+.tarjetas{
+  display: flex;
+  flex-direction: column;   
+  margin: 30px;  
+}
+.tarjetas img{
+  width: 60vw;
+  height: auto;
+}
+.faq_items p{
+  text-align: center;
+}
+.card-header{
+  width: 100% !important;
+  margin-bottom:50px; 
+  background-color: #fff;   
+}
+.card-body{
+background-color: rgb(236, 236, 236);
+width: 75vw !important;
+
+}
+#faq{
+  width: 95vw !important;
+}
+
+.logo_footer{
+  position: relative;
+  left: 30vw;
+  bottom: 3vh;
+}
+.columna{
+  position: relative;
+  right: 22vw;
+  top: 3vh;;
+}
+.linea_2 {
+  position: relative;
+  right: 7vw;
+  width: 90vw;
+}
+.linea_2b {
+  position: relative;
+  right: 7vw;
+  width: 90vw;
+}
+.nav2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav2 li p{
+  width: 55vw;
+  font-weight: 700;
+}
+
+.quedan{
+  text-align: center;
+ 
+}
+
+
+.debitos_automaticos{
+  height: 25vh;
+}
+
+.debitos_automaticos p{
+  font-size: 1.5em;
+  width: 95vw;
+  position: relative;
+  top: 4vh;
+}
+
+.contacto_tarjetas{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  right: 20vw;
+}
+
+.mb-0{
+  font-size: 0.5em !important;
+}
+
+
+
+
+.intro_footer{
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+.intro_footer p{
+position: relative;
+left: 15vw;
+font-size: 0.8em;
+width: 91vw;
+
+}
+
+.logo_footer{
+  position: relative;
+  left: -12vw;
+}
+
+.redes_sociales{
+  position: relative;
+  left: 0vw !important;
+}
+
+.redes_sociales p{
+  width: 45vw;
+  font-size: .9em;
+}
+
+.iconos_redes{
+  position: relative;
+  right: 8vw;
+}
+
+.simulador{
+  z-index: 50;
+}
+.banner_countdown{
+  z-index: -1;
+}
+
+.faq_items a{
+  font-family:uni, sans-serif;
+  padding: 13px;
+  background-color:#db0011;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 35vw;
+}
+
+/******* COUNTDOWN START********/
+
+.flipper {
+  position: relative;
+  color: #db0011;
+  display: block;
+  font-size: 40px !important;
+  line-height: 100%;
+  padding: 0;
+  margin-top: 8vh;
+  margin-right: 2vw;
+  height: 1.7em;
+  font-weight: 900;
+  
+}
+.flipper.flipper-invisible {
+  font-size: 0px !important;
+}
+
+.flipper-group {
+  position: relative;
+  white-space: nowrap;
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.flipper-group label {
+  position: absolute;
+  color: #db0011;
+  font-size: 25%;
+  top: 100%;
+  line-height: 1em;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  text-align: center;
+  padding: .5em;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 1vh;
+  font-weight: bold;
+}
+
+.flipper-digit {
+  white-space: nowrap;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  float: left;
+  height: 1.2em;
+  overflow-y: hidden;
+}
+.flipper-digit span {
+  font-size: 25%;
+}
+
+.flipper-delimiter {
+  white-space: nowrap;
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  min-width: .1em;
+  white-space: nowrap;
+  display: block;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  line-height: 1em;
+}
+
+.digit-face {
+  display: block;
+  visibility: hidden;
+  position: relative;
+  border-radius: 0.1em;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.digit-next {
+  display: block;
+  position: relative;
+  border-radius: 0.1em;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  height: 1.2em;
+  background: #fff;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.digit-top {
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  pointer-events: none;
+  overflow: hidden;
+  position: absolute;
+  background: #fff;
+  padding-top: 0.1em;
+  padding-bottom: 0;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border-top-left-radius: 0.1em;
+  border-top-right-radius: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: background 0s linear, -webkit-transform 0s linear;
+  transition: transform 0s linear, background 0s linear;
+  transition: transform 0s linear, background 0s linear, -webkit-transform 0s linear;
+  -webkit-transform-origin: 0 0.6em 0 !important;
+          transform-origin: 0 0.6em 0 !important;
+  -webkit-transform-style: preserve-3d !important;
+          transform-style: preserve-3d !important;
+  z-index: 20;
+}
+.digit-top.r {
+  transition: background 0.2s linear, -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear, background 0.2s linear;
+  transition: transform 0.2s linear, background 0.2s linear, -webkit-transform 0.2s linear;
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+  background: #cccccc;
+}
+
+.digit-top2 {
+  visibility: hidden;
+  position: absolute;
+  height: 50%;
+  left: 0;
+  right: 0;
+  background: #cccccc;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+  line-height: 0em !important;
+  top: 50% !important;
+  bottom: auto !important;
+  padding-top: 0;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border-bottom-left-radius: 0.1em;
+  border-bottom-right-radius: 0.1em;
+  overflow: hidden;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: background 0s linear, -webkit-transform 0s linear;
+  transition: transform 0s linear, background 0s linear;
+  transition: transform 0s linear, background 0s linear, -webkit-transform 0s linear;
+  -webkit-transform: rotateX(-90deg);
+          transform: rotateX(-90deg);
+  -webkit-transform-style: preserve-3d !important;
+          transform-style: preserve-3d !important;
+  -webkit-transform-origin: 0 0 0 !important;
+          transform-origin: 0 0 0 !important;
+  z-index: 20;
+}
+.digit-top2.r {
+  visibility: visible;
+  transition: background 0.2s linear 0.2s, -webkit-transform 0.2s linear 0.2s;
+  transition: transform 0.2s linear 0.2s, background 0.2s linear 0.2s;
+  transition: transform 0.2s linear 0.2s, background 0.2s linear 0.2s, -webkit-transform 0.2s linear 0.2s;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  background: #fff;
+}
+
+.digit-bottom {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  overflow: hidden;
+  background: #fff;
+  height: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  line-height: 0em;
+  padding-top: 0;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border-bottom-left-radius: 0.1em;
+  border-bottom-right-radius: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+  transition: none;
+}
+.digit-bottom.r {
+  transition: background 0.2s linear;
+  background: #cccccc;
+}
+
+.flipper-digit:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.5);
+  top: 50%;
+  display: block;
+  z-index: 30;
+  left: 0;
+  right: 0;
+}
+
+.flipper-dark {
+  color: #fff;
+}
+.flipper-dark .flipper-delimiter {
+  color: #333;
+}
+.flipper-dark .digit-next {
+  background: #333;
+}
+.flipper-dark .digit-top {
+  background: #333;
+}
+.flipper-dark .digit-top.r {
+  background: black;
+}
+.flipper-dark .digit-top2 {
+  background: black;
+}
+.flipper-dark .digit-top2.r {
+  background: #333;
+}
+.flipper-dark .digit-bottom {
+  background: #333;
+}
+
+.flipper-dark-labels .flipper-group label {
+  color: #333;
+}
+
+/******* COUNTDOWN END********/
+
+}
+/*con teclado portrait*/
+@media screen and (max-aspect-ratio: 13/9) { 
+  .navbar-brand{
+    position: relative;
+    right: 80vw;
+    margin: 0 !important;
+}
+.nav2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.texto_banner{
+  display: none;
+}
+.banner_countdown{
+  height: 90vh;
+  position: relative;
+  background-color: #d7d8d6;
+  width: 100%;  
+    
+}
+.banner_ctn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    
+  }
+
+
+.texto_banner_mobile{
+  display: block;
+  width: 100vw;
+}
+
+
+.inputs_simulador{
+  position: relative;
+  text-align: center;
+}
+
+
+.ahorro{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 40vh;
+}
+
+.items_simulador h2{
+  font-family:uni, sans-serif;
+  color: #db0011;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 3vh; 
+  width: 60vw; 
+  text-align: center;
+}
+
+.gris{
+  color: #767676;
+  width: 85vw;
+  text-align: center;
+}
+
+select{
+  padding: 12px 40px 12px 20px;
+  font-size: 18px;
+  line-height: 18px;  
+  width: 70vw;
+  border: solid #db0011;
+  box-shadow: none; 
+  
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: ellipsis;
+  background:#FFFFFF url("../img/flecha_select.png") right 13px center no-repeat;
+}
+
+.monto{
+  padding: 12px 40px 12px 20px;
+  font-size: 18px;
+  line-height: 18px;  
+  border: solid #db0011;
+  box-shadow: none; 
+  width: 70vw;
+  margin: 10px;
+}
+
+.añadir{
+  font-family:uni, sans-serif;
+  padding: 13px;
+  background-color:#db0011;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+
+.linea{
+  border-bottom: solid black 1px;
+  width: 80vw;
+  
+}
+
+table{
+  width: 80vw;
+  text-align: center;
+  color: #767676;
+}
+
+  
+
+.xmes{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  
+}
+
+.seis_meses{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+
+}
+
+.ahorro_a{
+  font-size: 0.8em;
+}
+
+.ahorro_b{
+  font-size: 0.8em;
+}
+
+.ahorro{
+  font-family: uni, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 10px;    
+}
+.total_mes{
+  padding: 3px 10px 3px 10px;
+  background-color: #cccccc;
+  position: relative;
+  left: 3vw;
+  width: 30vw;
+  text-align: center;
+  
+  
+}
+.total_6_meses{
+  padding: 3px 10px 3px 10px;
+  background-color: #767676;
+  color: #fff;
+  width: 30vw;
+  position: relative;
+  left: 3vw;
+  text-align: center;
+}
+
+.servicios{
+  height: 100vh;
+}
+
+.iconos_servicios_mobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.auto{
+  position: relative;
+  right: 8vw;
+}
+.servicios_iconos ul li p{
+  font-family:uni, sans-serif;
+  text-transform: uppercase;
+  color: #767676 ;
+  margin-bottom: 0;    
+  font-weight: 600; 
+  font-size: .8em;
+  position: relative;
+  bottom: 1vh;
+}
+
+.servicios_iconos ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3vw;
+  margin-top: 5vh;    
+}
+
+.servicios_iconos h3{
+  font-family:uni, sans-serif;
+  text-transform: uppercase;
+  color: #db0011;
+  margin-top: 5vh;
+  margin-bottom: 0;
+  font-weight: 700;  
+  width: 80vw;
+  text-align: center;  
+}
+.texto_auto{
+  position: relative;
+  right: 8vw;
+}
+
+.adherir_items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.adherir{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.adherir_items h3{
+  font-family:uni, sans-serif;
+  font-size: 2.5em;
+  width: 100vw;
+  text-align:center;
+  position: relative;
+  bottom: 3vh;
+  right: 15vw;
+}
+
+iframe{
+  width: 100%;
+}
+.accordion{
+  margin: 10px;
+}
+
+
+.banner_contacto{
+  height: 25vh;
+  background-color: #db0011;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contacto_telefono p{
+  font-family:uni, sans-serif;
+  color: white;
+  font-size: 1.3em;
+}
+
+.contacto_telefono{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.titulos_contacto{
+  font-family:uni, sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 2em;
+}
+
+.sub_contacto{
+font-family:uni, sans-serif;    
+color: white;
+font-size: 1em;
+font-weight: bold;
+}
+
+.banner_contacto img{
+  height: 5vh;
+  margin: 10px; 
+  position: relative;
+  bottom: 1vh;
+}
+
+.seccion_tarjetas{
+  height: 100vh;
+  background-image: url("../img/textura_pared.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(53, 52, 52);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;    
+}
+
+.seccion_tarjetas p{
+  font-family:uni, sans-serif;    
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+.tarjetas{
+  display: flex;
+  flex-direction: column;   
+  margin: 30px;  
+}
+.tarjetas img{
+  width: 60vw;
+  height: auto;
+}
+.faq_items p{
+  text-align: center;
+}
+.card-header{
+  width: 100% !important;
+  margin-bottom:50px; 
+  background-color: #fff;   
+}
+.card-body{
+background-color: rgb(236, 236, 236);
+width: 75vw !important;
+
+}
+#faq{
+  width: 95vw !important;
+}
+
+.logo_footer{
+  position: relative;
+  left: 30vw;
+  bottom: 3vh;
+}
+.columna{
+  position: relative;
+  right: 22vw;
+  top: 3vh;;
+}
+.linea_2 {
+  position: relative;
+  right: 7vw;
+  width: 90vw;
+}
+.linea_2b {
+  position: relative;
+  right: 7vw;
+  width: 90vw;
+}
+.nav2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav2 li p{
+  width: 55vw;
+  font-weight: 700;
+}
+
+.quedan{
+  text-align: center;
+ 
+}
+
+
+.debitos_automaticos{
+  height: 25vh;
+}
+
+.debitos_automaticos p{
+  font-size: 1.5em;
+  width: 95vw;
+  position: relative;
+  top: 4vh;
+}
+
+.contacto_tarjetas{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  right: 20vw;
+}
+
+.mb-0{
+  font-size: 0.5em !important;
+}
+
+
+
+
+.intro_footer{
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+.intro_footer p{
+position: relative;
+left: 15vw;
+font-size: 0.8em;
+width: 91vw;
+
+}
+
+.logo_footer{
+  position: relative;
+  left: -12vw;
+}
+
+.redes_sociales{
+  position: relative;
+  left: 0vw !important;
+}
+
+.redes_sociales p{
+  width: 45vw;
+  font-size: .9em;
+}
+
+.iconos_redes{
+  position: relative;
+  right: 8vw;
+}
+
+.simulador{
+  z-index: 50;
+}
+.banner_countdown{
+  z-index: -1;
+}
+
+
+
+.flipper {
+  position: relative;
+  color: #db0011;
+  display: block;
+  font-size: 40px !important;
+  line-height: 100%;
+  padding: 0;
+  margin-top: 8vh;
+  margin-right: 2vw;
+  height: 1.7em;
+  font-weight: 900;
+  
+}
+
+}
+
+/*con teclado landscape*/
+/*@media screen and (min-aspect-ratio: 13/9) {
+  .navbar-brand{
+    position: relative;
+    right: 30px;
+    margin:0 !important;
+  }
+
+  .nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .nav2 li p{
+    width: 25vw;
+    font-weight: 700;
+  }
+  
+  .texto_banner_mobile{
+    display: none;
+  }
+  .texto_banner{
+    position: relative;
+    right: 1vw;
+  }
+  .banner_ctn{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .quedan{
+    font-size: 0.7em;
+    position: relative;
+    top: 1.5vh;;
+  }
+  .flipper {
+    color: #db0011;
+    display: block;
+    font-size: 35px !important;
+    line-height: 100%;
+    padding: 0;
+    margin-top: 3vh;
+    margin-right: 5vw;
+    height: 1.7em;
+    font-weight: 900;
+    position: relative;
+    bottom:3vh;
+  }
+
+  .monto{
+    padding: 12px 40px 12px 20px;
+    font-size: 18px;
+    line-height: 18px;  
+    border: solid #db0011;
+    box-shadow: none; 
+    width: 20vw;
+    margin: 10px;
+  }
+
+  .linea{
+    border-bottom: solid black 1px;
+    width: 80vw;
+    
+  }
+  
+  table{
+    width: 80vw;
+    text-align: center;
+    color: #767676;
+  }
+  
+    
+  
+  .xmes{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+  }
+  
+  .seis_meses{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  
+  }
+  
+  .ahorro_a{
+    font-size: 1em;
+  }
+  
+  .ahorro_b{
+    font-size: 1em;
+  }
+  
+  .ahorro{
+    font-family: uni, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 10px;;
+    
+  }
+  .total_mes{
+    padding: 3px 10px 3px 10px;
+    background-color: #cccccc;
+    position: relative;
+    left: 8vw;
+    width: 15vw;
+    text-align: center;
+    
+    
+  }
+  .total_6_meses{
+    padding: 3px 10px 3px 10px;
+    background-color: #767676;
+    color: #fff;
+    width: 15vw;
+    position: relative;
+    left: 6.5vw;
+    text-align: center;
+  }
+
+  .debitos_automaticos{
+    height: 30vh;
+  }
+  .contacto{
+    display: flex;
+    flex-direction: row !important;
+  }
+  .contacto_telefono p{
+    position: relative;
+    right: 5vw;
+  }
+
+  .texto_contact{
+    position: relative;
+    left: 0vw;
+  }
+ 
+
+  .servicios_iconos ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .servicios_iconos ul li{
+    margin: 5vh;
+  }
+  .auto{
+    position: relative;
+    top: 2vh;
+  }
+  .texto_auto{
+    position: relative;
+    left: 0.5vw;
+    top: 2vh;
+  }
+ .servicios{
+    height: 100vh;
+  }
+ .iconos_servicios_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .prepagas{
+    position: relative;
+    right: 7vw;
+  }
+  .texto_prepagas{
+    position: relative;
+    right: 7vw;
+  }
+
+  .servicios_b{
+    position: relative;
+    left: 7vw;
+  }
+  .texto_servicios_b{
+    position: relative;
+    left: 7vw;
+  }
+
+  .colegios{
+    position: relative;
+    left: 1vw;
+    top: 2vh;
+  }
+  .texto_colegios{
+    position: relative;
+    left: 1vw;
+    top: 2vh;
+  }
+
+  .adherir_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .adherir{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .adherir_items h3{
+    font-family:uni, sans-serif;
+    font-size: 2.5em;
+    width: 100vw;
+    text-align:center;
+    position: relative;
+    bottom: 3vh;
+    right: 15vw;
+  }
+  
+  iframe{
+    width: 100%;
+  }
+  .contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.contacto_telefono{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 7vh;
+}
+
+  .banner_contacto{
+    height: 50vh;
+    background-color: #db0011;
+    width: 100%;
+    
+  }
+
+.sub_contacto{
+    font-family:uni, sans-serif;    
+    color: white;
+    font-size: 1em;
+}
+
+.banner_contacto img{
+    height: 10vh;
+    margin: 40px;    
+}
+.seccion_tarjetas{
+  height: 100vh;
+  background-image: url("../img/textura_pared.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(53, 52, 52);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;    
+}
+
+.seccion_tarjetas p{
+  font-family:uni, sans-serif;    
+  color: white;
+  font-size: 2em;
+}
+
+.tarjetas{
+  display: flex;
+  flex-direction: row;   
+  margin: 30px;
+}
+
+.tarjetas img{
+  width: 30vw;
+  height: auto;
+}
+.linea_2 {
+  position: relative;
+  
+  width: 90vw;
+}
+.linea_2b {
+  position: relative;
+  
+  width: 90vw;
+}
+
+.card-body{
+  background-color: rgb(236, 236, 236);
+  width: 85vw !important;
+  
+  }
+.logo_footer{
+  position: relative;
+  left: -18vw;
+}
+
+.contacto_tarjetas{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  right: 25vw;
+}
+.visa{
+  position: relative;
+  right: 1.5vw;
+}
+
+.intro_footer{
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+.intro_footer p{
+position: relative;
+left: 16vw;
+font-size: 0.8em;
+width: 91vw;
+top: 2vh;
+
+}
+.legal{
+  width: 90vw;
+}
+
+
+
+.redes_sociales{
+  position: relative;
+  left: 0vw !important;
+  width: 90vw;
+}
+
+.redes_sociales p{
+  position: relative;
+  left: 5vw;
+}
+
+.iconos_redes{
+  position: relative;
+  left: 0vw;
+}
+}*/
+
+
+
+/*celular landscape*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-brand{
+    position: relative;
+    right: 30px;
+    margin:0 !important;
+  }
+
+  .nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .nav2 li p{
+    width: 25vw;
+    font-weight: 700;
+  }
+  
+  .texto_banner_mobile{
+    display: none;
+  }
+  .texto_banner{
+    position: relative;
+    right: 1vw;
+  }
+  .banner_ctn{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .quedan{
+    font-size: 0.7em;
+    position: relative;
+    top: 1.5vh;;
+  }
+  .flipper {
+    color: #db0011;
+    display: block;
+    font-size: 35px !important;
+    line-height: 100%;
+    padding: 0;
+    margin-top: 3vh;
+    margin-right: 5vw;
+    height: 1.7em;
+    font-weight: 900;
+    position: relative;
+    bottom:3vh;
+  }
+
+  .monto{
+    padding: 12px 40px 12px 20px;
+    font-size: 18px;
+    line-height: 18px;  
+    border: solid #db0011;
+    box-shadow: none; 
+    width: 20vw;
+    margin: 10px;
+  }
+
+  .linea{
+    border-bottom: solid black 1px;
+    width: 80vw;
+    
+  }
+  
+  table{
+    width: 80vw;
+    text-align: center;
+    color: #767676;
+  }
+  
+    
+  
+  .xmes{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+  }
+  
+  .seis_meses{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  
+  }
+  
+  .ahorro_a{
+    font-size: 1em;
+  }
+  
+  .ahorro_b{
+    font-size: 1em;
+  }
+  
+  .ahorro{
+    font-family: uni, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 10px;;
+    
+  }
+  .total_mes{
+    padding: 3px 10px 3px 10px;
+    background-color: #cccccc;
+    position: relative;
+    left: 8vw;
+    width: 15vw;
+    text-align: center;
+    
+    
+  }
+  .total_6_meses{
+    padding: 3px 10px 3px 10px;
+    background-color: #767676;
+    color: #fff;
+    width: 15vw;
+    position: relative;
+    left: 6.5vw;
+    text-align: center;
+  }
+
+  .debitos_automaticos{
+    height: 30vh;
+  }
+  .contacto{
+    display: flex;
+    flex-direction: row !important;
+  }
+  .contacto_telefono p{
+    position: relative;
+    right: 5vw;
+  }
+
+  .texto_contact{
+    position: relative;
+    left: 0vw;
+  }
+ 
+
+  .servicios_iconos ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .servicios_iconos ul li{
+    margin: 5vh;
+  }
+  .auto{
+    position: relative;
+    top: 2vh;
+  }
+  .texto_auto{
+    position: relative;
+    left: 0.5vw;
+    top: 2vh;
+  }
+ .servicios{
+    height: 100vh;
+  }
+ .iconos_servicios_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .prepagas{
+    position: relative;
+    right: 7vw;
+  }
+  .texto_prepagas{
+    position: relative;
+    right: 7vw;
+  }
+
+  .servicios_b{
+    position: relative;
+    left: 7vw;
+  }
+  .texto_servicios_b{
+    position: relative;
+    left: 7vw;
+  }
+
+  .colegios{
+    position: relative;
+    left: 1vw;
+    top: 2vh;
+  }
+  .texto_colegios{
+    position: relative;
+    left: 1vw;
+    top: 2vh;
+  }
+
+  .adherir_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .adherir{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .adherir_items h3{
+    font-family:uni, sans-serif;
+    font-size: 2.5em;
+    width: 100vw;
+    text-align:center;
+    position: relative;
+    bottom: 3vh;
+    right: 15vw;
+  }
+  
+  iframe{
+    width: 100%;
+  }
+  .contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.contacto_telefono{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 7vh;
+}
+
+  .banner_contacto{
+    height: 50vh;
+    background-color: #db0011;
+    width: 100%;
+    
+  }
+
+.sub_contacto{
+    font-family:uni, sans-serif;    
+    color: white;
+    font-size: 1em;
+}
+
+.banner_contacto img{
+    height: 10vh;
+    margin: 40px;    
+}
+.seccion_tarjetas{
+  height: 100vh;
+  background-image: url("../img/textura_pared.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(53, 52, 52);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;    
+}
+
+.seccion_tarjetas p{
+  font-family:uni, sans-serif;    
+  color: white;
+  font-size: 2em;
+}
+
+.tarjetas{
+  display: flex;
+  flex-direction: row;   
+  margin: 30px;
+}
+
+.tarjetas img{
+  width: 30vw;
+  height: auto;
+}
+.linea_2 {
+  position: relative;
+  
+  width: 90vw;
+}
+.linea_2b {
+  position: relative;
+  
+  width: 90vw;
+}
+
+.card-body{
+  background-color: rgb(236, 236, 236);
+  width: 85vw !important;
+  
+  }
+.logo_footer{
+  position: relative;
+  left: -18vw;
+}
+
+.contacto_tarjetas{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  right: 25vw;
+}
+.visa{
+  position: relative;
+  right: 1.5vw;
+}
+
+.intro_footer{
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+.intro_footer p{
+position: relative;
+left: 16vw;
+font-size: 0.8em;
+width: 91vw;
+top: 2vh;
+
+}
+.legal{
+  width: 90vw;
+}
+
+
+
+.redes_sociales{
+  position: relative;
+  left: 0vw !important;
+  width: 90vw;
+}
+
+.redes_sociales p{
+  position: relative;
+  left: 5vw;
+}
+
+.iconos_redes{
+  position: relative;
+  left: 0vw;
+}
+  
+}
+
+@media (min-width: 1200px)and (max-width: 1799px) {
+  .texto_banner_mobile{
+    display: none;
+  }
+
+  .banner_countdown{
+    height: 25vh;
+    background-color: #d7d8d6;
+    width: 100%;    
+}
+.texto_banner{
+    height: 25vh;
+    width: auto;
+    position: relative;
+    right: 3vw;
+}
+.logo_footer{
+  left: 7vw;
+}
+.adherir h3{
+  font-family:uni, UniversLTStd, sans-serif;
+  font-weight: 900;
+  color: #db0011;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  margin-top: 7vh;
+  margin-left:10vw;
+}
+.flipper {
+  color: #db0011;
+  display: block;
+  font-size: 50px !important;
+  line-height: 100%;
+  padding: 0;
+  margin-top: 5vh;
+  margin-right: 0vw;
+  height: 1.7em;
+  font-weight: 900;
+}
+.servicios{
+  height: 30vh;
+}
+
+
+
+
+
+}
+
+@media (min-width: 1800px) {
+  .texto_banner_mobile{
+    display: none;
+  }
+
+}
+
+/*tablet*/
+@media (min-width: 767px) and (max-width: 1024px) {
+  .navbar-brand{
+    position: relative;
+    right: 30px;
+    margin:0 !important;
+  }
+  .quedan{
+    text-align: center;
+    
+  }
+  .flipper {
+    color: #db0011;
+    display: block;
+    font-size: 60px !important;
+    line-height: 100%;
+    padding: 0;
+    margin-top: 5vh;
+    margin-right: 0vw;
+    height: 1.7em;
+    font-weight: 900;
+  }
+
+  .linea{
+    border-bottom: solid black 1px;
+    width: 80vw;    
+  }
+
+  table{
+    width: 80vw;
+    text-align: center;
+    color: #767676;
+  }
+  .total_mes{
+    padding: 3px 10px 3px 10px;
+    background-color: #cccccc;
+    position: relative;
+    left: 8vw;
+    width: 15vw;
+    text-align: center;
+    
+    
+  }
+  .total_6_meses{
+    padding: 3px 10px 3px 10px;
+    background-color: #767676;
+    color: #fff;
+    width: 15vw;
+    position: relative;
+    left: 6.7vw;
+    text-align: center;
+  }
+.debitos_automaticos{
+  height: 15vh;
+}
+
+  .servicios_iconos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .servicios_iconos ul li{
+    margin: 5vh;
+  }
+  .auto{
+    position: relative;
+    left: 0.5vw;
+  }
+  .texto_auto{
+    position: relative;
+    left: 0.5vw;
+  }  
+  .texto_banner{
+    display: none;
+  }
+  .banner_countdown{
+    height: 95vh;
+  }
+
+  .banner_ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .texto_banner_mobile{
+    display: block;
+    width: 100vw;
+  }
+
+  .monto{
+    width: 20vw;;
+  }
+
+  .servicios{
+    height: 100vh;
+  }
+  
+  .iconos_servicios_mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .auto{
+    position: relative;
+    right: 8vw;
+  }
+  .servicios_iconos ul li p{
+    font-family:uni, sans-serif;
+    text-transform: uppercase;
+    color: #767676 ;
+    margin-bottom: 0;    
+    font-weight: 600; 
+    font-size: .8em;
+    position: relative;
+    bottom: 1vh;
+  }
+  
+  .servicios_iconos ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+    margin-top: 5vh;    
+  }
+  
+  .servicios_iconos h3{
+    font-family:uni, sans-serif;
+    text-transform: uppercase;
+    color: #db0011;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    font-weight: 700;  
+    width: 80vw;
+    text-align: center;  
+  }
+  .texto_auto{
+    position: relative;
+    right: 8vw;
+  }
+
+  .adherir_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .adherir{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .adherir_items h3{
+    font-family:uni, sans-serif;
+    font-size: 2.5em;
+    width: 100vw;
+    text-align:center;
+    position: relative;
+    bottom: 3vh;
+    right: 15vw;
+  }
+  
+  iframe{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .accordion{
+    margin-bottom: 20px;
+  }
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.contacto_telefono{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 7vh;
+}
+
+  .banner_contacto{
+    height: 25vh;
+    background-color: #db0011;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .sub_contacto{
+    font-family:uni, sans-serif;    
+    color: white;
+    font-size: 1.2em;
+  }
+  .nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .nav2 li p{
+    width: 25vw;
+    font-weight: 700;
+  }
+
+  .seccion_tarjetas{
+    height: 100vh;
+    background-image: url("../img/textura_pared.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(53, 52, 52);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+  }
+  
+  .seccion_tarjetas p{
+    font-family:uni, sans-serif;    
+    color: white;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .tarjetas{
+    display: flex;
+    flex-direction: column;   
+    margin: 30px;  
+  }
+  .tarjetas img{
+    width: 50vw;
+    height: auto;
+  }
+
+  .card-body{
+    background-color: rgb(236, 236, 236);
+    width: 87vw !important;
+    
+    }
+
+  .logo_footer{
+    position: relative;
+    left: 15vw;
+    bottom: 0.5vh;
+  }
+  .columna{
+    position: relative;
+    right: 22vw;
+    top: 3vh;    
+  }
+  .linea_2 {
+    position: relative;
+    
+    width: 92vw;
+  }
+  .linea_2b {
+    position: relative;
+    
+    width: 92vw;
+  }
+ .redes_sociales{
+   left: 0 !important;
+ }
+ .legal{
+   width: 92vw;
+ }
+ .contacto_tarjetas p{
+   margin: 30px;
+ }
+ 
+ .intro_footer p{
+   left: 12vw;
+   font-size: 0.8em;
+   text-align: center;
+ }
+ 
+
+ }
+/*tablet landsape*/
+ @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	
+  
+  
+  .texto_banner_mobile{
+    display: none;
+  }
+
+  .banner_countdown{
+    height: 25vh;
+    background-color: #d7d8d6;
+    width: 100%;    
+}
+
+  .texto_banner{
+    display: block ;
+    height: 25vh;
+    width: auto;
+    position: relative;
+    right: 0vw;
+  }
+  .banner_ctn{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flipper {
+    color: #db0011;
+    display: block;
+    font-size: 50px !important;
+    line-height: 100%;
+    padding: 0;
+    margin-top: 7vh;
+    margin-right: 5vw;
+    height: 1.7em;
+    font-weight: 900;
+  }
+
+  .tarjeta_nav{
+    position: relative;
+    right: 8vw;
+  }
+
+  .nav-item{
+    margin: 0;
+  }
+
+  .total_mes{
+    padding: 3px 10px 3px 10px;
+    background-color: #cccccc;
+    position: relative;
+    left: 12vw;
+    width: 12vw;
+    text-align: center;
+    
+    
+  }
+  .total_6_meses{
+    padding: 3px 10px 3px 10px;
+    background-color: #767676;
+    color: #fff;
+    width: 12vw;
+    position: relative;
+    left: 11vw;
+    text-align: center;
+  }
+  .servicios{
+    height: 70vh;
+    background-color: #e1e1e1;
+    width: 100%;    
+}
+
+  .iconos_servicios_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .servicios_iconos ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .auto{
+    position: relative;
+    top: 2vh;
+  }
+  .texto_auto{
+    position: relative;
+    left: 0.5vw;
+    top: 0vh;
+  }
+ .prepagas{
+    position: relative;
+    right: 2.5vw;
+  }
+  .texto_prepagas{
+    position: relative;
+    right: 2.5vw;
+  }
+
+  .servicios_b{
+    position: relative;
+    left: 2.5vw;
+  }
+  .texto_servicios_b{
+    position: relative;
+    left: 2.5vw;
+  }
+
+  .tarjetas{
+    display: flex;
+    flex-direction: row;   
+    margin: 30px;
+}
+
+.tarjetas img{
+    width: 30vw;
+    height: auto;
+}
+
+
+.contacto{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.contacto_telefono{
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+top: 7vh;
+}
+
+.banner_contacto{
+  height: 25vh;
+  background-color: #db0011;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.sub_contacto{
+  font-family:uni, sans-serif;    
+  color: white;
+  font-size: 1.2em;
+}
+
+.telefono{
+  position: relative;
+  top: 16vh;
+}
+
+ iframe{
+   height:578px;
+ }
+
+ .links_footer{
+   margin: 0 !important;
+ }
+
+body{
+  overflow-x: hidden;
+}
+.card-body{
+  background-color: rgb(236, 236, 236);
+  width: 90vw !important;
+  
+  }
+
+
+  
+}
+
+ @media (min-width: 1025px) and (max-width: 1280px) {
+
+  .servicios_iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 1.5vh;
+}
+
+.adherir h3{
+  font-family:uni, UniversLTStd, sans-serif;
+  font-weight: 900;
+  color: #db0011;
+  text-transform: uppercase;
+  font-size: 3em;
+  margin-top: 12vh;
+  margin-left:7vw;
+}
+.logo_footer{
+  position: relative;
+  left: 9vw;
+}
+
+.card-body{
+  background-color: rgb(236, 236, 236);
+  width: 92vw !important;
+  
+  }
+  .banner_countdown{
+    height: 25vh;
+    background-color: #d7d8d6;
+    width: 100%;    
+}
+.texto_banner{
+    height: 25vh;
+    width: auto;
+    position: relative;
+    right: 3vw;
+}
+
+  .flipper {
+    position: relative;
+    bottom: 2vh;
+  }
+  .quedan{
+   
+    top: 2vh !important;
+  }
+  .texto_banner{
+    left: 4vw;
+  }
+  .monto{
+    width: 15vw !important;
+  }
+  table{
+    width: 50vw;
+  }
+  .linea{
+    width: 50vw;
+  }
+
+  .total_mes{
+    padding: 3px 10px 3px 10px;
+    background-color: #cccccc;
+    position: relative;
+    left: 6.2vw;
+    width: 8vw;
+    text-align: center;
+    
+  }
+  .total_6_meses{
+    padding: 3px 10px 3px 10px;
+    background-color: #767676;
+    color: #fff;
+    width: 8vw;
+    position: relative;
+    left: 5.5vw;
+    text-align: center;
+  }
+  
+}
